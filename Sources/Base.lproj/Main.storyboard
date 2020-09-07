@@ -48,7 +48,7 @@
             </objects>
             <point key="canvasLocation" x="898" y="-238"/>
         </scene>
-        <!--Meeting Notes-->
+        <!--Details-->
         <scene sceneID="7O0-wB-vKV">
             <objects>
                 <viewController id="NkI-Lr-OBU" customClass="DetailViewController" customModule="UISplitViewController" customModuleProvider="target" sceneMemberID="viewController">
@@ -73,7 +73,7 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Meeting Notes" id="beb-O9-sBM"/>
+                    <navigationItem key="navigationItem" title="Details" id="beb-O9-sBM"/>
                     <connections>
                         <outlet property="textView" destination="fta-Qs-JJa" id="Pnc-LH-3Bq"/>
                     </connections>
@@ -82,10 +82,10 @@
             </objects>
             <point key="canvasLocation" x="921" y="573"/>
         </scene>
-        <!--Select Color-->
+        <!--Meeting Notes-->
         <scene sceneID="SLK-om-Nl1">
             <objects>
-                <navigationController title="Select Color" id="li7-mj-ZUN" sceneMemberID="viewController">
+                <navigationController title="Meeting Notes" id="li7-mj-ZUN" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="LRR-jq-QXd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
