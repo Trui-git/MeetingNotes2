@@ -67,15 +67,15 @@
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES" shipmentTrackingNumber="YES" flightNumber="YES" lookupSuggestion="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="fta-Qs-JJa" firstAttribute="leading" secondItem="b2y-85-An1" secondAttribute="leadingMargin" constant="51" id="4dv-i4-Mf4"/>
                             <constraint firstItem="fta-Qs-JJa" firstAttribute="top" secondItem="6BH-ea-gqs" secondAttribute="bottom" constant="142" id="Mo4-Je-R5d"/>
                             <constraint firstItem="CNl-TW-t6m" firstAttribute="top" secondItem="fta-Qs-JJa" secondAttribute="bottom" constant="353" id="d7A-Ip-ZCu"/>
                             <constraint firstItem="fta-Qs-JJa" firstAttribute="centerX" secondItem="b2y-85-An1" secondAttribute="centerX" id="dlw-Cs-D9b"/>
-                            <constraint firstItem="fta-Qs-JJa" firstAttribute="leading" secondItem="b2y-85-An1" secondAttribute="leadingMargin" constant="51" id="nCq-Zb-yJp"/>
+                            <constraint firstItem="fta-Qs-JJa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="b2y-85-An1" secondAttribute="leadingMargin" constant="51" id="nCq-Zb-yJp"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Details" id="beb-O9-sBM"/>
